@@ -1,0 +1,9 @@
+int() - numeros inteiros 
+float() - numeros reais com .
+str() - strings (cadeia de textos), geralmente entre parenteses
+bool() - return True and False
+    o tipo bool() pode ser usado pra verificacao, retornando False caso uma variavel esteja vazia
+
+
+
+.is()

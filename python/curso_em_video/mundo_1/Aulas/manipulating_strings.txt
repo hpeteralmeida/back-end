@@ -1,0 +1,51 @@
+'Curso em Video Python'
+
+the previous text is a string. it can be allocated in a variable:
+phrase = 'Curso em Video Python'
+
+each character gets an index 
+
+    C u r s o   e m   V i  d  e  o     P  y  t  h  o  n
+    0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
+    this means 21 characters, including spaces, starting with the index 0
+
+Slicing:
+    
+    phrase[9] == V (index 9) upper and lower cases are different to the language.
+
+    phrase[9:13] == V  i  d  e 
+                    9 10 11 12   (the last range value '13' doesn't show up)
+    
+    phrase[9:18:2 ] == goes from the index 9 to the index 17 index jumping 2 places
+
+    in a nut shell:
+        phrase [
+            first index:
+            last index (excluding the last range value):
+            jumping places
+        ]
+
+        both first and last index can be empty:
+
+        phrase[:21] == goes from the start to 20
+        phrase[0:] == goes from 0 till the end 
+        phrase[::2] == goes from the start to end jumping 2 places
+
+Analysis:
+
+    len() == shows how many characters there are
+    .count('') == shows how many elements indicated in quotes there are
+    .find('') == shows the index where the element starts 
+        returns -1 when not in the string
+    
+    operator in 
+
+Trasformation:
+
+    .replace('', '')
+    .upper()
+    .lower()
+    .capitalize()
+    .title()
+    .strip( )
