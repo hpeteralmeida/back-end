@@ -1,0 +1,34 @@
+1. Condicoes Aninhadas:
+    |
+    if condicao:
+        Bloco A
+    elif condicao:
+        Bloco B 
+    elif condicao:
+        Bloco C 
+    else:
+        Bloco D
+
+2. Repetição FOR:
+    |
+    repeticoes com numero de interacoes conhecidas
+    exemplo: dar 10 passos, nomear 5 pessoas, ler 4 notas, etc
+
+        1. for i in range(tamanho)
+        2. for i in lista
+        3. for i in range(inicio, fim, casas)
+
+3. Repetição WHILE:
+    |
+    repeticoes com numeros desconhecidos de interacoes
+    exemplo: 
+        while condicao:
+            Bloco A
+
+            condicao = False
+
+
+4. BREAK:
+    |
+    quebra 
+
