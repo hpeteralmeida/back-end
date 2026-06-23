@@ -1,4 +1,4 @@
-/* Exercício 2
+/* Exercício 7
 
 Leia uma cidade usando scanf e imprima:
 Você mora em Goiânia */

@@ -1,4 +1,4 @@
-/*Exercício 3
+/*Exercício 8
 
 Leia o nome completo do usuário usando fgets e imprima:
 Nome completo: nome sobrenome */
