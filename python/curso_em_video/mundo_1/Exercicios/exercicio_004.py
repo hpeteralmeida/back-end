@@ -1,4 +1,4 @@
-# Analisa uma variavel e mostra o seu tipo e verificacoes como se é numero, alfabetoico, alfanumerico, etc
+# Analise uma variavel e mostre o seu tipo e verificacoes como se é numero, alfabetoico, alfanumerico, etc
 
 variavel = input("Digite algo: ")
 print(f"Voce escreveu algo do tipo {type(variavel)}")
